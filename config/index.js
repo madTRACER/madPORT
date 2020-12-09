@@ -4,11 +4,11 @@ module.exports = {
   author: "@madTRACER",
   siteTitle: "madTRACER's portfolio",
   siteShortTitle: "madTRACER", // Used as logo text in header, footer, and splash screen
-  siteDescription: "A modern one-page portfolio with a clean yet expressive design.",
+  siteDescription: "Embedded & AI/ML Engineer's portfolio.",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  seoTitleSuffix: "Portfolio", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
 
   // -- THEME SETTINGS -----
   colors: {
@@ -53,20 +53,16 @@ module.exports = {
   socialMedia: [
     {
       name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
+      url: "https://www.linkedin.com/in/madTRACER/",
     },
     {
-      name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
+      name: "Telegram",
+      url: "https://t.me/madTRACER",
     },
     {
       name: "Github",
       url:
-        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
-    },
-    {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
+        "https://github.com/madTRACER",
     },
   ],
 
@@ -81,10 +77,10 @@ module.exports = {
         name: "About Me",
         url: "/#about",
       },
-      {
-        name: "Features",
-        url: "/#projects",
-      },
+      // {
+      //   name: "Features",
+      //   url: "/#projects",
+      // },
     ],
     button: {
       name: "Contact",
@@ -92,13 +88,13 @@ module.exports = {
     },
   },
   footerLinks: [
-    {
-      name: "Privacy",
-      url: "/privacy",
-    },
-    {
-      name: "Imprint",
-      url: "/imprint",
-    },
+    // {
+    //   name: "Privacy",
+    //   url: "/privacy",
+    // },
+    // {
+    //   name: "Imprint",
+    //   url: "/imprint",
+    // },
   ],
 }
