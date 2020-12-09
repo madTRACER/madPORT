@@ -147,7 +147,7 @@ const Articles = () => {
       animate={articlesControls}
     >
       <StyledContentWrapper>
-        <h3 className="section-title">#latest articles on my blog</h3>
+        <h3 className="section-title"># latest articles on my blog</h3>
         <div className="articles">
           {articles
             ? articles.map(item => (

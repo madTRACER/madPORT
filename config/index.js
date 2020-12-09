@@ -57,7 +57,7 @@ module.exports = {
         "https://github.com/madTRACER",
     },
     {
-      name: "Telegram",
+      name: "Xing",
       url: "https://t.me/madTRACER",
     },
     {
