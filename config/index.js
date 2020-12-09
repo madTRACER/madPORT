@@ -52,17 +52,17 @@ module.exports = {
   // Medium, GitHub, LinkedIn, XING, Behance
   socialMedia: [
     {
-      name: "Linkedin",
-      url: "https://www.linkedin.com/in/madTRACER/",
+      name: "Github",
+      url:
+        "https://github.com/madTRACER",
     },
     {
       name: "Telegram",
       url: "https://t.me/madTRACER",
     },
     {
-      name: "Github",
-      url:
-        "https://github.com/madTRACER",
+      name: "Linkedin",
+      url: "https://www.linkedin.com/in/madTRACER/",
     },
   ],
 
