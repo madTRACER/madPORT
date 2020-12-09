@@ -160,11 +160,11 @@ const Articles = () => {
                   key={item.link}
                 >
                   <div className="card">
-                    <span className="category">
+                    {/* <span className="category">
                       <Underlining color="tertiary" hoverColor="secondary">
                         {item.categories[2]}
                       </Underlining>
-                    </span>
+                    </span> */}
                     <h4 className="title">{item.title}</h4>
                     <span className="date">{parseDate(item.pubDate)}</span>
                   </div>
