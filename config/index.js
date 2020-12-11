@@ -44,7 +44,7 @@ module.exports = {
   //-- ARTICLES SECTION SETTINGS -----
   // You can create your own Medium feed with this rss to json converter: https://rss2json.com/
   // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
-  mediumRssFeed: "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmadtracer.com%2Frss.xml",
+  mediumRssFeed: "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fblog.madtracer.com%2Frss.xml",
   shownArticles: 3,
 
   //-- SOCIAL MEDIA SETTINGS -----
@@ -52,16 +52,16 @@ module.exports = {
   // Medium, GitHub, LinkedIn, XING, Behance
   socialMedia: [
     {
-      name: "Github",
+      name: "github",
       url:
         "https://github.com/madTRACER",
     },
     {
-      name: "Xing",
+      name: "telegram",
       url: "https://t.me/madTRACER",
     },
     {
-      name: "Linkedin",
+      name: "linkedin",
       url: "https://www.linkedin.com/in/madTRACER/",
     },
   ],
@@ -70,11 +70,11 @@ module.exports = {
   navLinks: {
     menu: [
       {
-        name: "Articles",
+        name: "articles",
         url: "/#articles",
       },
       {
-        name: "About Me",
+        name: "about me",
         url: "/#about",
       },
       // {
@@ -83,7 +83,7 @@ module.exports = {
       // },
     ],
     button: {
-      name: "Contact",
+      name: "contact",
       url: "/#contact",
     },
   },
