@@ -160,7 +160,7 @@ const Articles = () => {
                   key={item.link}
                 >
                   <div className="card">
-                    <h4 className="title">{item.title}</h4>
+                    <h4 className="title" style={{fontWeight: "bold"}}>{item.title}</h4>
                     <span className="date">{parseDate(item.pubDate)}</span>
                   </div>
                 </a>
