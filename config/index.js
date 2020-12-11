@@ -74,12 +74,12 @@ module.exports = {
   navLinks: {
     menu: [
       {
-        name: "articles",
-        url: "/#articles",
+        name: "blog",
+        url: "https://blog.madtracer.com/",
       },
       {
-        name: "about me",
-        url: "/#about",
+        name: "book",
+        url: "",
       },
       // {
       //   name: "Features",
@@ -87,8 +87,8 @@ module.exports = {
       // },
     ],
     button: {
-      name: "contact",
-      url: "/#contact",
+      name: "channel",
+      url: "https://t.me/madtracercom",
     },
   },
   footerLinks: [
