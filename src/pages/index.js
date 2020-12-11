@@ -127,38 +127,38 @@ export const pageQuery = graphql`
         }
       }
     }
-    projects: allMdx(
-      filter: {
-        fileAbsolutePath: { regex: "/index/projects/" }
-        frontmatter: { visible: { eq: true } }
-      }
-      sort: { fields: [frontmatter___position], order: ASC }
-    ) {
-      edges {
-        node {
-          body
-          frontmatter {
-            title
-            category
-            emoji
+    // projects: allMdx(
+    //   filter: {
+    //     fileAbsolutePath: { regex: "/index/projects/" }
+    //     frontmatter: { visible: { eq: true } }
+    //   }
+    //   sort: { fields: [frontmatter___position], order: ASC }
+    // ) {
+    //   edges {
+    //     node {
+    //       body
+    //       frontmatter {
+    //         title
+    //         category
+    //         emoji
                 
-            github
-            screenshot {
-              childImageSharp {
-                fluid(maxWidth: 400, quality: 90) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            tags
-            position
-            buttonVisible
-            buttonUrl
-            buttonText
-          }
-        }
-      }
-    }
+    //         github
+    //         screenshot {
+    //           childImageSharp {
+    //             fluid(maxWidth: 400, quality: 90) {
+    //               ...GatsbyImageSharpFluid
+    //             }
+    //           }
+    //         }
+    //         tags
+    //         position
+    //         buttonVisible
+    //         buttonUrl
+    //         buttonText
+    //       }
+    //     }
+    //   }
+    // }
     contact: allMdx(
       filter: { fileAbsolutePath: { regex: "/index/contact/" } }
     ) {
