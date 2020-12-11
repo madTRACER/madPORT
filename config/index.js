@@ -61,6 +61,10 @@ module.exports = {
       url: "https://t.me/madTRACER",
     },
     {
+      name: "instagram",
+      url: "https://www.instagram.com/_madTRACER_/"
+    }
+    {
       name: "linkedin",
       url: "https://www.linkedin.com/in/madTRACER/",
     },
